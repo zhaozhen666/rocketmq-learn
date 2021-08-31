@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rocketmq-spring-consumer" />
         <module name="rocketmq-spring-producer" />
+        <module name="rocketmq-tagfilter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="rocketmq-learn" options="-parameters" />
       <module name="rocketmq-spring-consumer" options="-parameters" />
       <module name="rocketmq-spring-producer" options="-parameters" />
+      <module name="rocketmq-tagfilter" options="-parameters" />
       <module name="rocketmqspringdemo" options="-parameters" />
     </option>
   </component>

@@ -31,17 +31,17 @@ public class MQProducerTest {
 
     }
 
-    @Test
-    public  void test(){
-        DefaultMQPullConsumer consumer = new DefaultMQPullConsumer();
-        consumer.setMessageModel(MessageModel.BROADCASTING);
-        consumer.setMessageModel(MessageModel.CLUSTERING);
-
-
-        DefaultMQPushConsumer pushConsumer =new DefaultMQPushConsumer();
-        pushConsumer.setConsumeThreadMax();
-        pushConsumer.setConsumeThreadMin();
-        pushConsumer.subscribe();
-        pushConsumer.setConsumeMessageBatchMaxSize();
-    }
+//    @Test
+//    public  void test(){
+//        DefaultMQPullConsumer consumer = new DefaultMQPullConsumer();
+//        consumer.setMessageModel(MessageModel.BROADCASTING);
+//        consumer.setMessageModel(MessageModel.CLUSTERING);
+//
+//
+//        DefaultMQPushConsumer pushConsumer =new DefaultMQPushConsumer();
+//        pushConsumer.setConsumeThreadMax();
+//        pushConsumer.setConsumeThreadMin();
+//        pushConsumer.subscribe();
+//        pushConsumer.setConsumeMessageBatchMaxSize();
+//    }
 }
