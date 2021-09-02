@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocketmq-balance" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocketmq-dlq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocketmq-spring-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocketmq-spring-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocketmq-spring-producer" charset="UTF-8" />

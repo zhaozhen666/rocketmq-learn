@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rocketmq-balance" />
+        <module name="rocketmq-dlq" />
+        <module name="rocketmq-retry" />
         <module name="rocketmq-spring-consumer" />
         <module name="rocketmq-spring-producer" />
         <module name="rocketmq-tagfilter" />
@@ -18,6 +21,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rocketmq-balance" options="-parameters" />
+      <module name="rocketmq-dlq" options="-parameters" />
       <module name="rocketmq-learn" options="-parameters" />
       <module name="rocketmq-spring-consumer" options="-parameters" />
       <module name="rocketmq-spring-producer" options="-parameters" />

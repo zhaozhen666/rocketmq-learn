@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/rocketmq-spring-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-spring-producer/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-tagfilter/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-balance/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-dlq/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-retry/pom.xml" />
       </list>
     </option>
   </component>

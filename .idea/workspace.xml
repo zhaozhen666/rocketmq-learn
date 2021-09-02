@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d14f2cc-52a4-44ae-9c80-fbf8c1e7fc0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-tagfilter/rocketmq-tagfilter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQConsumerSimpleTagFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQConsumerTagSqlFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQProducerSimpleTagFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQProducerTagSqlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBalancer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBlancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerProducerBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerConsumerBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerProducerBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQProducerDLQ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-spring-producer/src/test/java/com/zhao/producer/MQProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-spring-producer/src/test/java/com/zhao/producer/MQProducerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,6 +20,9 @@
     <ignored path="$PROJECT_DIR$/rocketmq-spring-consumer/target/" />
     <ignored path="$PROJECT_DIR$/rocketmq-spring-producer/target/" />
     <ignored path="$PROJECT_DIR$/rocketmq-tagfilter/target/" />
+    <ignored path="$PROJECT_DIR$/rocketmq-balance/target/" />
+    <ignored path="$PROJECT_DIR$/rocketmq-dlq/target/" />
+    <ignored path="$PROJECT_DIR$/rocketmq-retry/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-spring-producer/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerProducerBalancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-spring-producer/src/test/java/com/zhao/producer/MQProducerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="103">
+              <caret line="11" selection-start-line="11" selection-end-line="19" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,74 +47,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-tagfilter/pom.xml">
+        <entry file="file://$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQProducerDLQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQProducerSimpleTagFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQConsumerSimpleTagFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            <state relative-caret-position="223">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQProducerTagSqlFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQConsumerTagSqlFilter.java">
+        <entry file="file://$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/MQPushConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-spring-consumer/src/main/java/com/zhao/consumer/listener/ConsumerListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="108">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,10 +71,80 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-spring-consumer/pom.xml">
+        <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerProducerBalancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="19" selection-start-line="9" selection-start-column="3" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="43">
+              <caret line="17" column="27" selection-start-line="17" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBlancer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBalancer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-dlq/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerConsumerBalancer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="12" selection-start-line="12" selection-end-line="30" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-retry/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-balance/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="17" selection-start-line="17" selection-end-line="36" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -173,6 +185,17 @@
         <option value="$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQConsumerSimpleTagFilter.java" />
         <option value="$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQProducerTagSqlFilter.java" />
         <option value="$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQConsumerTagSqlFilter.java" />
+        <option value="$PROJECT_DIR$/rocketmq-balance/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerBalancer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerBalancer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerProducerBalancer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-dlq/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-retry/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBlancer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerConsumerBalancer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBalancer2.java" />
+        <option value="$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java" />
+        <option value="$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQProducerDLQ.java" />
       </list>
     </option>
   </component>
@@ -192,7 +215,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="1280" />
-    <option name="height" value="703" />
+    <option name="height" value="701" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -207,37 +230,55 @@
           <expand>
             <path>
               <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-spring-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-balance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-tagfilter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-tagfilter" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-balance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-tagfilter" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-balance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-tagfilter" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-balance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-tagfilter" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-dlq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-dlq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-dlq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-dlq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tagfilter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-dlq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dlq" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,13 +293,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1630422977575" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1630541375879" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.zhao.tagfilter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -277,13 +319,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MQConsumerTagSqlFilter">
-    <configuration name="MQConsumerSimpleTagFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhao.tagfilter.MQConsumerSimpleTagFilter" />
-      <module name="rocketmq-tagfilter" />
+  <component name="RunManager" selected="Application.MQConsumerDLQ">
+    <configuration name="MQConsumerConsumerBlancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MQConsumerConsumerBlancer" />
+      <module name="rocketmq-balance" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQConsumerDLQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhao.rmq.dlq.MQConsumerDLQ" />
+      <module name="rocketmq-dlq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhao.tagfilter.*" />
+          <option name="PATTERN" value="com.zhao.rmq.dlq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,68 +340,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MQConsumerTagSqlFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhao.tagfilter.MQConsumerTagSqlFilter" />
-      <module name="rocketmq-tagfilter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhao.tagfilter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MQConsumerProducerBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MQConsumerProducerBalancer" />
+      <module name="rocketmq-balance" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MQProducerSimpleTagFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhao.tagfilter.MQProducerSimpleTagFilter" />
-      <module name="rocketmq-tagfilter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhao.tagfilter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MQProducerConsumerBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MQProducerConsumerBalancer" />
+      <module name="rocketmq-balance" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MQProducerTagSqlFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhao.tagfilter.MQProducerTagSqlFilter" />
-      <module name="rocketmq-tagfilter" />
+    <configuration name="MQProducerDLQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhao.rmq.dlq.MQProducerDLQ" />
+      <module name="rocketmq-dlq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhao.tagfilter.*" />
+          <option name="PATTERN" value="com.zhao.rmq.dlq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MQProducerTest.sendMessages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rocketmq-spring-producer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhao.producer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zhao.producer" />
-      <option name="MAIN_CLASS_NAME" value="com.zhao.producer.MQProducerTest" />
-      <option name="METHOD_NAME" value="sendMessages" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MQConsumerTagSqlFilter" />
-        <item itemvalue="Application.MQProducerTagSqlFilter" />
-        <item itemvalue="Application.MQConsumerSimpleTagFilter" />
-        <item itemvalue="Application.MQProducerSimpleTagFilter" />
-        <item itemvalue="JUnit.MQProducerTest.sendMessages" />
+        <item itemvalue="Application.MQConsumerDLQ" />
+        <item itemvalue="Application.MQProducerDLQ" />
+        <item itemvalue="Application.MQConsumerConsumerBlancer" />
+        <item itemvalue="Application.MQProducerConsumerBalancer" />
+        <item itemvalue="Application.MQConsumerProducerBalancer" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +389,7 @@
       <updated>1630333055741</updated>
       <workItem from="1630333064990" duration="5988000" />
       <workItem from="1630365034292" duration="35000" />
-      <workItem from="1630384571603" duration="3269000" />
+      <workItem from="1630384571603" duration="13031000" />
     </task>
     <servers />
   </component>
@@ -396,11 +417,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9292000" />
+    <option name="totallyTimeSpent" value="19054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="701" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-spring-producer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="19" selection-start-line="10" selection-start-column="3" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-spring-producer/src/main/java/com/zhao/producer/RocketMQProducerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -602,15 +615,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQProducerTagSqlFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="299">
+          <caret line="31" column="28" selection-start-line="11" selection-start-column="7" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-tagfilter/src/main/java/com/zhao/tagfilter/MQConsumerTagSqlFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="268">
+          <caret line="37" column="25" selection-start-line="15" selection-start-column="1" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.5.1/rocketmq-common-4.5.1.jar!/org/apache/rocketmq/common/message/MessageQueue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1-sources.jar!/org/apache/rocketmq/client/consumer/PullResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="e#1839#1840#0" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-spring-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="36" column="19" selection-start-line="10" selection-start-column="3" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-dlq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-balance/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="17" selection-start-line="17" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-retry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerProducerBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="17" column="27" selection-start-line="17" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBlancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerProducerBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="11" selection-start-line="11" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerConsumerBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="12" selection-start-line="12" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBalancer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQProducerDLQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
