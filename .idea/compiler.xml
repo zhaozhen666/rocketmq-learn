@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rocketmq-balance" />
+        <module name="rocketmq-delay" />
         <module name="rocketmq-dlq" />
         <module name="rocketmq-retry" />
         <module name="rocketmq-spring-consumer" />
