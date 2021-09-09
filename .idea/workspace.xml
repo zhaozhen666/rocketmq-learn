@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d14f2cc-52a4-44ae-9c80-fbf8c1e7fc0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBalancer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBlancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerProducerBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerConsumerBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerProducerBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQProducerDLQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQNoOrderlyRetryConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQNoOrderlyRetryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQRetryConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQRetryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MyConcurrentlyMessageListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,10 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerProducerBalancer.java">
+        <entry file="file://$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="11" selection-start-line="11" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="331">
+              <caret line="27" selection-start-line="27" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,8 +44,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQProducerDLQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQRetryProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQRetryConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="14" selection-start-line="14" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQNoOrderlyRetryProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,10 +90,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java">
+        <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQNoOrderlyRetryConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="208">
+              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,22 +102,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerProducerBalancer.java">
+        <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MyConcurrentlyMessageListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="17" column="27" selection-start-line="17" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBlancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="270">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,34 +126,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-dlq/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerConsumerBalancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="12" selection-start-line="12" selection-end-line="30" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rocketmq-retry/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="435">
               <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
             </state>
           </provider>
@@ -143,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rocketmq-balance/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
+            <state relative-caret-position="255">
               <caret line="17" selection-start-line="17" selection-end-line="36" selection-end-column="19" />
             </state>
           </provider>
@@ -194,8 +188,13 @@
         <option value="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBlancer.java" />
         <option value="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerConsumerBalancer.java" />
         <option value="$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBalancer2.java" />
-        <option value="$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java" />
         <option value="$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQProducerDLQ.java" />
+        <option value="$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java" />
+        <option value="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQRetryProducer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQRetryConsumer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MyConcurrentlyMessageListener.java" />
+        <option value="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQNoOrderlyRetryConsumer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQNoOrderlyRetryProducer.java" />
       </list>
     </option>
   </component>
@@ -222,34 +221,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-balance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-balance" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-balance" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocketmq-balance" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="rocketmq-dlq" type="462c0819:PsiDirectoryNode" />
@@ -280,10 +255,42 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dlq" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-retry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-retry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-retry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-retry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocketmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocketmq-retry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="retry" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +300,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1630541375879" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1631200773686" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -319,14 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MQConsumerDLQ">
-    <configuration name="MQConsumerConsumerBlancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MQConsumerConsumerBlancer" />
-      <module name="rocketmq-balance" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MQNoOrderlyRetryConsumer">
     <configuration name="MQConsumerDLQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhao.rmq.dlq.MQConsumerDLQ" />
       <module name="rocketmq-dlq" />
@@ -340,26 +340,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MQConsumerProducerBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MQConsumerProducerBalancer" />
-      <module name="rocketmq-balance" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MQProducerConsumerBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MQProducerConsumerBalancer" />
-      <module name="rocketmq-balance" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MQProducerDLQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhao.rmq.dlq.MQProducerDLQ" />
-      <module name="rocketmq-dlq" />
+    <configuration name="MQNoOrderlyRetryConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhao.rmq.retry.MQNoOrderlyRetryConsumer" />
+      <module name="rocketmq-retry" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhao.rmq.dlq.*" />
+          <option name="PATTERN" value="com.zhao.rmq.retry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQNoOrderlyRetryProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhao.rmq.retry.MQNoOrderlyRetryProducer" />
+      <module name="rocketmq-retry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhao.rmq.retry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQRetryConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhao.rmq.retry.MQRetryConsumer" />
+      <module name="rocketmq-retry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhao.rmq.retry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQRetryProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhao.rmq.retry.MQRetryProducer" />
+      <module name="rocketmq-retry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhao.rmq.retry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,11 +394,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MQNoOrderlyRetryConsumer" />
+        <item itemvalue="Application.MQNoOrderlyRetryProducer" />
+        <item itemvalue="Application.MQRetryConsumer" />
+        <item itemvalue="Application.MQRetryProducer" />
         <item itemvalue="Application.MQConsumerDLQ" />
-        <item itemvalue="Application.MQProducerDLQ" />
-        <item itemvalue="Application.MQConsumerConsumerBlancer" />
-        <item itemvalue="Application.MQProducerConsumerBalancer" />
-        <item itemvalue="Application.MQConsumerProducerBalancer" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +414,8 @@
       <updated>1630333055741</updated>
       <workItem from="1630333064990" duration="5988000" />
       <workItem from="1630365034292" duration="35000" />
-      <workItem from="1630384571603" duration="13031000" />
+      <workItem from="1630384571603" duration="13537000" />
+      <workItem from="1631195832021" duration="2887000" />
     </task>
     <servers />
   </component>
@@ -417,12 +443,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19054000" />
+    <option name="totallyTimeSpent" value="22447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="701" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -431,7 +458,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5012346" side_tool="true" weight="0.2536349" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -652,30 +679,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-dlq/pom.xml">
+    <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerProducerBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-balance/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="17" selection-start-line="17" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-retry/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="11" selection-start-line="11" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerProducerBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
+        <state relative-caret-position="60">
           <caret line="17" column="27" selection-start-line="17" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -685,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQConsumerConsumerBlancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="75">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -693,27 +709,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerProducerBalancer.java">
+    <entry file="file://$PROJECT_DIR$/rocketmq-dlq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="11" selection-start-line="11" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-balance/src/main/java/MQProducerConsumerBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
+        <state relative-caret-position="60">
           <caret line="12" selection-start-line="12" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1141#1142#0" expanded="true" />
             <element signature="e#1219#1220#0" expanded="true" />
             <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-retry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-balance/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -729,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQProducerDLQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -739,8 +766,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-dlq/src/main/java/com/zhao/rmq/dlq/MQConsumerDLQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="331">
+          <caret line="27" selection-start-line="27" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQRetryProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQRetryConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="14" selection-start-line="14" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MyConcurrentlyMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQNoOrderlyRetryProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-retry/src/main/java/com/zhao/rmq/retry/MQNoOrderlyRetryConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
