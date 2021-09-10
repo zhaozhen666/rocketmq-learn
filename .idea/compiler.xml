@@ -9,10 +9,12 @@
         <module name="rocketmq-balance" />
         <module name="rocketmq-delay" />
         <module name="rocketmq-dlq" />
+        <module name="rocketmq-order" />
         <module name="rocketmq-retry" />
         <module name="rocketmq-spring-consumer" />
         <module name="rocketmq-spring-producer" />
         <module name="rocketmq-tagfilter" />
+        <module name="rocketmq-trx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/rocketmq-dlq/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-retry/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-delay/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-trx/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-order/pom.xml" />
       </list>
     </option>
   </component>
